@@ -37,6 +37,7 @@ height: 100vh;
 h1 {
 	font-size: 25px;
 	font-weight: bold;
+	margin: 20px;
 }
 
 .password {
@@ -46,15 +47,22 @@ h1 {
 	cursor: pointer;
 	width: 180px;
 	padding: 10px;
+	border: 2px solid rgb(43, 43, 43);
+	border-radius: 5px
 }
 
 .password-button {
 	padding: 8px;
 	background-color: blueviolet;
 	color: #f1f5f8;
-	border-radius: 2px;
 	margin: 2px;
 	padding: 10px;
 	width: 180px;
+	border-radius: 5px
 	
+}
+
+.password-button:hover {
+	background-color: rgb(170, 79, 255);
+	width: 175px;
 }
